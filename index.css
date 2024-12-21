@@ -1,27 +1,28 @@
-#calculator {
+#border{
     width: 20%;
     border: 2px solid rgb(157, 148, 148);
     border-radius: 5px;
+    
+    
 }
-
-#display {
+#screen{
     height: 50px;
     width: 90%;
     margin: 10px;
     border-radius: 5px;
     font-size: 20px;
-}
 
-.button-container {
+}
+#values{
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
 }
-
-.button {
+.button{
     height: 70px;
     width: 70px;
     margin: 5px;
+
 }
